@@ -444,7 +444,11 @@ footer div {
   }
   main .profile-section .profile-wrapper .profile-viewpoint .profile__details .profile__username {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.575rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    hyphens: auto;
   }
   main .profile-section .profile-wrapper .profile-viewpoint .profile__details .profile__bio-wrapper {
     width: 100%;
