@@ -8,7 +8,7 @@ A simple and responsive web application that allows you to view GitHub user prof
   - Profile picture, name, username
   - Bio, company, location
   - Followers, following, and public repositories
-- Shows the top 6 recently created repositories
+- Shows the top 6 recently created and popular repositories
 - Displays stars, forks, watchers, and languages used
 - Navigable links to the actual GitHub profile and repositories
 - Responsive and easy-to-use UI
