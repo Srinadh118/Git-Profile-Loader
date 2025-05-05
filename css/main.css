@@ -443,6 +443,7 @@ footer div {
     width: 100%;
   }
   main .profile-section .profile-wrapper .profile-viewpoint .profile__details .profile__username {
+    width: 100%;
     font-size: 2rem;
   }
   main .profile-section .profile-wrapper .profile-viewpoint .profile__details .profile__bio-wrapper {
