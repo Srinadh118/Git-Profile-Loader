@@ -195,12 +195,16 @@ function renderRepos(repos) {
                                 repo.watchers_count
                               )}</span
                             >
-                            <span class="repo-stat">
+                            ${
+                              !languages.length === 0
+                                ? `<span class="repo-stat">
                             <i class="fa-solid fa-cubes"></i><div class = "repo-languages">
                             ${languages
                               .map((lan) => `<div class="lang">${lan}</div>`)
                               .join("")}
-                            </div></span>
+                            </div></span>`
+                                : ""
+                            }
                           </div>
                         </div>`;
   });
