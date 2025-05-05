@@ -196,7 +196,7 @@ function renderRepos(repos) {
                               )}</span
                             >
                             ${
-                              !languages.length === 0
+                              !(languages.length === 0)
                                 ? `<span class="repo-stat">
                             <i class="fa-solid fa-cubes"></i><div class = "repo-languages">
                             ${languages
